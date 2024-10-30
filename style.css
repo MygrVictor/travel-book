@@ -1,0 +1,242 @@
+header {
+  background-image: url(image/backpack-mountain.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+header a {
+  color: #ffe989;
+  text-decoration: none;
+}
+header a:hover {
+  color: #471311;
+}
+header a:active {
+  color: #fb0000;
+}
+header ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style-type: none;
+  padding: 0;
+  gap: 15px;
+}
+header,
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-family: "Shadows Into Light", cursive;
+  color: #ffffff;
+  font-size: 80px;
+}
+header h3 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: #ffffff;
+
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header p {
+  font-family: "Open Sans", serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header,
+.arrow {
+  fill: #ffffff; /* changes the color to red */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1em;
+  height: 1em;
+}
+.Bienvenue,
+.icon {
+  border: none;
+  display: flex;
+  justify-content: space-around;
+
+  width: 50%;
+}
+#passeport {
+  width: 60px;
+  fill: #03a696;
+}
+#map {
+  width: 60px;
+  fill: #f2b705;
+}
+#panneaux {
+  width: 60px;
+  fill: #c7d93d;
+}
+.Bienvenue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: auto;
+  height: 60vh;
+  background-color: #0d4a80;
+}
+.Bienvenue h2 {
+  color: #ffffff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  
+}
+.Bienvenue p {
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+  margin-top: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#point {
+  fill: #ffffff;
+  width: 20px;
+}
+
+.étapes {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #042645;
+}
+
+.text-location {
+  width: 90%;
+  padding-left: 40px;
+}
+.étapes p {
+  font-family: "Open Sans", serif;
+  color: #ffffff;
+}
+.AUSTRALIE h2 {
+  color: #ffffff;
+  font-family: "Shadows Into Light", cursive;
+  border-bottom: 2px solid white;
+  margin-left: 40%;
+  margin-right: 10%;
+}
+.AUSTRALIE.img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.AUSTRALIE {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.NouvelleCa h2 {
+  color: #ffffff;
+  font-family: "Shadows Into Light", cursive;
+  border-bottom: 2px solid white;
+  margin-left: 40%;
+  margin-right: 10%;
+}
+.NouvelleCa,
+img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.NouvelleCa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.japon h2 {
+  color: #ffffff;
+  font-family: "Shadows Into Light", cursive;
+  border-bottom: 2px solid white;
+  margin-left: 40%;
+  margin-right: 10%;
+}
+
+.japon.img {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.japon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+body img {
+  width: 40%;
+}
+
+footer {
+  background-color: #0d4a80;
+  color: #ffffff;
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+}
+svg {
+  fill: #ffffff;
+  width: 60px;
+}
+footer h2 {
+  font-family: "Shadows Into Light", cursive;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+}
+.text-footer {
+  margin-top: 10px;
+}
+
+#insta,
+#fb {
+  display: flex;
+  position: absolute;
+  margin-top: 70px;
+}
+#insta {
+  padding-left: 50px;
+}
+.fleche {
+  position: absolute;
+  padding-left: 1200px;
+  padding-top: 70px;
+}
+.fleche:hover {
+  opacity: 1;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  padding-left: 500px;
+}
+.Art {
+  background-color: #0d4a80;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
